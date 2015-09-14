@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'bundler'
+require 'middleman_to_rails'
+
+puts MiddlemanToRails.convert!(ARGV.first)
